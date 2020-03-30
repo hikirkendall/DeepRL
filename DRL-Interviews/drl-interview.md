@@ -225,25 +225,34 @@ https://zhuanlan.zhihu.com/p/57206327
 > off-policy。因为在DDPG为了保证一定的探索，对于输出动作加了一定的噪音，也就是说行为策略不再是优化的策略。
 
 36. 是否了解过D4PG算法？简述其过程
-
+https://zhuanlan.zhihu.com/p/61014409
 
 37. 简述A3C算法？A3C是on-policy还是off-policy，为什么？
+on-policy  https://www.cnblogs.com/wangxiaocvpr/p/8110120.html
 38. A3C算法是如何异步更新的？是否能够阐述GA3C和A3C的区别？
 39. 简述A3C的优势函数？
 40. 什么是重要性采样？
+https://zhuanlan.zhihu.com/p/36816898
 41. 为什么TRPO能保证新策略的回报函数单调不减？
+https://blog.csdn.net/weixin_41679411/article/details/82421121
+新的策略对应的回报函数分解成原来策略的回报函数加一个其他项，那么只要保证新的策略的其他项是大于零的
 42. TRPO是如何通过优化方法使每个局部点找到让损失函数非增的最优步长来解决学习率的问题；
 43. 如何理解利用平均KL散度代替最大KL散度？
+
 44. 简述PPO算法？与TRPO算法有何关系？
 45. 简述DPPO和PPO的关系？
 46. 强化学习如何用在推荐系统中？
+https://www.jianshu.com/p/b9113332e33e
 47. 推荐场景中奖赏函数如何设计？
 48. 场景中状态是什么，当前状态怎么转移到下一状态？
 49. 自动驾驶和机器人的场景如何建模成强化学习问题？MDP各元素对应真实场景中的哪些变量？
+https://zhuanlan.zhihu.com/p/28152822
 50. 强化学习需要大量数据，如何生成或采集到这些数据？
+GAIL
 51. 是否用某种DRL算法玩过Torcs游戏？具体怎么解决？
+https://www.jianshu.com/p/a3432c0e1ef2
 52. 是否了解过奖励函数的设置(reward shaping)？
-
+https://blog.csdn.net/gsww404/article/details/80803295
 
 
 ### 贡献致谢列表
